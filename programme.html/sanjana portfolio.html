@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sanjana's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(206 131 224);
+    color: rgb(252, 253, 254);
+    font-family: 'Playfair Display', serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(144 23 172 / 74%);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav div.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 17px;;
+   
+}
+.firstsection div{
+    width: 30%;
+}
+.rightsection img{
+    width: 88%;
+    margin: -17px 6px;
+}
+.firstsection div.left{
+  
+    width: 63%;
+    margin-top: 7px;
+    font-size: 3.5rem;
+    padding: 58px;
+}
+span{
+    color: #564381;
+}
+nav ul li a{
+ text-decoration: none;
+ color: white;
+}
+nav ul li a:hover{
+    color: #580e5b;
+    font-size: 110%;
+
+}
+
+.secondsection{
+    width: 100%;
+    padding: 100px 0px;
+
+
+}
+.secondsection img{
+    height:auto;
+    width:382px;
+
+}
+.aboutme{
+    width: 550px;
+
+}
+hr{
+    margin: 2px 79px;
+}
+.secondmain{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutme h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.aboutme h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.aboutme p{
+    letter-spacing: 1px;
+    line-height: 33px;
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+.contact{
+    width: 100%;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact .button{
+    background-color: rgb(185 11 185);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sanjana's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="firstsection">
+           
+            <div class="left">Hi! This is <span>Sanjana Kapoor</span>,a Web Developer.Welcome to my Portfolio.</div>
+            
+            <div class="rightsection">
+                <img src="images\icon.png" alt="icon">
+            </div>
+        </section>
+        <hr>
+        
+        <section class="secondsection">
+            <div class="secondmain">
+                <img src="images\sanjana.jpg" alt="image">   
+            <div class="aboutme">
+                <h2>About Me</h2>
+                <h5>Developer <span>& Designer</span></h5>
+                <p>I'm currently a student pursuing BCA from Invertis University,Being a fresher i'm currently working on an Intership by Bharat Intern.I have developed my skills in Python Programming and Web Development.I can provide clean code and pixel perfect design.A reponsive design can be accessible to all the users, regardless of their device.</p>
+            </div>
+            </div>
+
+        </section>
+        <hr>
+        <div class="contact">
+            <p>Let me get you a Beautiful Website.</p>
+            <a href="#" class="button">Hire Me</a>
+        </div>
+        
+    </main>
+ 
+    
+</body>
+</html>
